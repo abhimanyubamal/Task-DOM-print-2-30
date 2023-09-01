@@ -1,0 +1,21 @@
+button{
+    background: linear-gradient(90deg, rgb(0, 217, 255), red);
+    border-radius: 20px;
+    border: transparent;
+    transition: all 400ms linear;
+}
+
+button:hover{
+    animation: wave 2000ms ease alternate infinite;
+}
+
+@keyframes wave {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 50vw 10px;
+    }
+}
+
